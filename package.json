@@ -1,0 +1,27 @@
+{
+  "name": "user-activity-detector",
+  "type": "module",
+  "version": "1.0.0",
+  "keywords": [
+    "user",
+    "activity",
+    "idle"
+  ],
+  "author": "Sergio Morchón Poveda",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "test:satch": "vitest",
+    "tsc": "tsc --build",
+    "prettier:check": "prettier -l .",
+    "prettier:write": "prettier --write ."
+  },
+  "devDependencies": {
+    "happy-dom": "^18.0.1",
+    "prettier": "^3.6.2",
+    "vite": "^7.0.5",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^3.2.4"
+  }
+}

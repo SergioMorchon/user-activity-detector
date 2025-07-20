@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2024",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "module": "preserve",
+    "noEmit": true,
+    "lib": ["es2024", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+    "types": [],
+    "listFiles": true
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.test.*"]
+}
